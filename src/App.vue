@@ -1,5 +1,6 @@
 <template>
   <header>
+    <Navbar />
   </header>
   <main>
     <div
@@ -10,7 +11,6 @@
         </post>
       </div>
       <div class="col-9 text-center">
-        <Navbar />
       </div>
     </div>
     <router-view />
@@ -21,7 +21,6 @@
     </div>
   </footer>
 </template>
-
 <script>
 import { computed } from 'vue'
 import { AppState } from './AppState'
