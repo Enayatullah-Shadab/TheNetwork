@@ -2,11 +2,14 @@
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <router-link class="navbar-brand d-flex" :to="{ name: 'Home' }">
       <div class="d-flex flex-column align-items-center">
-        <img
-          alt="logo"
-          src="../assets/img/cw-logo.png"
-          height="45"
-        />
+        <span>
+          <img
+            alt="logo"
+            src="../assets/img/sha1.png"
+            height="45"
+          />
+          Welcome to Shadab network
+        </span>
       </div>
     </router-link>
     <button
@@ -27,11 +30,11 @@
             Home
           </router-link>
         </li>
-        <li class="nav-item">
+        <!-- <li class="nav-item">
           <router-link :to="{ name: 'About' }" class="nav-link">
             About
           </router-link>
-        </li>
+        </li> -->
       </ul>
       <span class="navbar-text">
         <button
@@ -122,5 +125,9 @@ a:hover {
 }
 .nav-item .nav-link.router-link-exact-active{
   color: var(--primary);
+}
+img{
+  border-radius: 50%;
+
 }
 </style>

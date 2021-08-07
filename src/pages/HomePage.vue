@@ -1,7 +1,6 @@
 <template>
   <div class=" home d-flex flex-column text-center">
-    <div class="bg-darg text-light p-2 m-2 ">
-      <span>Here is my post</span>
+    <div class="bg-darg text-light ">
     </div>
   </div>
 </template>
